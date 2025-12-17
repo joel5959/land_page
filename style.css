@@ -4,24 +4,43 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
-.header {
+.header, .hero, footer {
     background-color: #1F2937;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     padding: 8px;   
 }
 
-footer {
-    background-color: #1F2937;   
-}
-
-main {
 
 
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 button {
     background-color: #3883F6;
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.author {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+
 }
 
 .left, .right {
