@@ -1,26 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    font-family: 'Roboto', sans-serif; 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .header, .hero, footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero {
+    padding: 100px 200px;
+    display: flex;
+    gap: 50px;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 8px;   
+    padding: 32px;
+    text-align: center;
 }
 
-.hero-left {
+.secondary {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.title{
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
 
+
 .hero-right {
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,9 +48,23 @@ body {
 
 button, .calltoaction {
     background-color: #3883F6;
+    color: #F9FAF8;
+
+}
+
+button {
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+.herobtn {
+    border: none;
+    cursor: pointer;
 }
 
 .quotesection {
+    padding: 100px 200px;
     background-color: #E5E7EB;
 }
 
@@ -79,6 +113,10 @@ li{
     color: #F9FAF8;
 }
 
+.info{
+    padding: 100px 200px;
+}
+
 .info-title{
     font-weight: 900;
     text-align: center;
@@ -104,13 +142,40 @@ li{
     height: 150px;
 }
 
+.calltoaction{
+    padding: 10px 20px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 15px;
+
+}
+
+.calltoaction h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.calltoaction p{
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.calltoactionbtn {
+    display: flex;
+    
+}
+
+
 footer{
     text-align: center;
+    color: #F9FAF8;
+    padding: 20px 20px;
 }
 
 .placeholder {
     height: 300px;
-    width: 300px;
+    width: 500px;
     float: right;
 }
 
