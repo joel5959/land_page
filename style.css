@@ -143,27 +143,30 @@ li{
 }
 
 .calltoaction{
-    padding: 10px 20px;
-    margin: 50px 50px 50px 50px;
+    padding: 30px 30px;
+    margin: 50px 50px 100px 100px;
     border-radius: 15px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.calltoaction h3 {
+.cta-text h3 {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.calltoaction p{
+.cta-text p{
     color: #E5E7EB;
     font-size: 16px;
 }
 
 .calltoactionbtn {
-    display: flex;
-    
+    margin-left: auto;
+    display: block;
+    border-color: white;
 }
 
 
